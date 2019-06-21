@@ -212,12 +212,8 @@ def _get_book(url):
 def main():
     global count
     _set_dir()
-    pypath = os.path.realpath(__file__)
-    pypath = os.path.split(pypath)[0]
-    novel_url_file = os.path.join(pypath, 'urlist.json')
-    with open(novel_url_file, 'r', encoding='utf-8') as f:
-        url_dic = eval(f.read())
-    for url in url_dic.keys():
+    urls=['https://www.biquge.info/11_11656/']
+    for url in urls:
         count = 0
         _get_book(url)
 
