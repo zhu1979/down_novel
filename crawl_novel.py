@@ -3,15 +3,14 @@
 #
 import os
 import re
-from time import sleep, time, strftime, localtime
+from time import localtime, sleep, strftime, time
 from urllib import parse
 
 from bs4 import BeautifulSoup
-
 from tomorrow import threads
 
-from getargs import _choose_args
 from downpage import _get_page
+from getargs import _choose_args
 from setdir import _set_dir
 
 count = 0
