@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # _*_ coding: utf-8 _*_
-# @author: zhu1979
+#
 import os
 import re
 from time import sleep, time, strftime, localtime

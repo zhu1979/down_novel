@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # _*_ coding: utf-8 _*_
+
 from random import choice
 from requests import Session
 from requests.adapters import HTTPAdapter
@@ -7,7 +8,6 @@ from requests.adapters import HTTPAdapter
 
 def _get_page(url, charset='utf-8'):
     """ 用于下载页面 """
-    # nl = parse.urlsplit(url).netloc
     user_agents = [
         "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)",
         "Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 1.0.3705; .NET CLR 1.1.4322)",
@@ -40,7 +40,6 @@ def _get_page(url, charset='utf-8'):
         "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7",
         "User-Agent": user_agent
     }
-    # proxy = {'http': '127.0.0.1:1081'}
     # get时超时重试设置
     s = Session()
     s.mount('http://', HTTPAdapter(max_retries=5))
