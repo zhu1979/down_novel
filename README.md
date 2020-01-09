@@ -15,3 +15,5 @@
 
 - BeautifulSoup
 - tomorrow
+
+  这个模块最好稍微修改一下20和42行的`async`，可能会和`asyncio`有点冲突。
