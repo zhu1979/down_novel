@@ -43,6 +43,12 @@ def _get_book_text(i, url, code, textcss):
             chapter_text = soup.select(textcss)[0].text
             # 正则替换4个连续空格为换行和行首两个全角空格
             f_text = re.sub(r'\s{4,}|　{2}', '\n　　', chapter_text)
+        f_text = re.sub(
+            r'笔.趣.阁[wｗ].*[fｆ][oｏ]|.*chaptererror.*|正在手打中.*|\u3000{2}灯笔.*| \
+            \u3000{2}P[sS][:：].*|app2\(\);|\u3000{2}\(http.*|\u3000{2}请记住本书首发域名.*| \
+            【笔.趣.阁.*[bｂBＢ]iz】|一秒记住.*|[7７七⑦][8８八⑧]中文.*|七\^八中文.*|　　</div>| \
+            　　【.*换源app.*】\n|　　【.*野果阅读.*】\n', '',
+            f_text)
         # 在文件中写入章节标题和内容
         with open(tmppath + '%d.txt' % i, 'w', encoding='utf-8', errors='ignore') as f:
             f.write('## ' + chapter_title + '\n' + f_text + '\n\n')
