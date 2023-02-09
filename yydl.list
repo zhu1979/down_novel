@@ -15,3 +15,13 @@
 🇸🇬新加坡07 = trojan, sg7.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
 🇸🇬新加坡08 = trojan, sg8.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
 🇺🇳临时01|25倍率计量 = trojan, t1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
+🇺🇳临时02|25倍率计量 = trojan, t2.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
+🇺🇳临时03|25倍率计量 = trojan, t3.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
+🇺🇳临时05|25倍率计量 = trojan, t5.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
+🇯🇵日本01 = trojan, jp1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
+🇯🇵日本02 = trojan, jp2.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
+🇩🇪德国01 = trojan, de1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
+🇺🇸美国01 = trojan, us1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
+🇺🇸美国02 = trojan, us2.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
+🇺🇸美国03 = trojan, us3.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
+🇺🇸美国04 = trojan, us4.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou, 443, "ab0a7173-5108-4618-a904-d7e0017d5f4d", skip-cert-verify=true, udp=true
